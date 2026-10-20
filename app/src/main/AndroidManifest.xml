@@ -16,5 +16,5 @@
     </activity>
 
 </application>
-
+android:icon="@drawable/noor_tools_icon"
 </manifest>

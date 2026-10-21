@@ -1,20 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"><application
-    android:allowBackup="true"
-  android:label="NOOR TOOLS"
-    android:theme="@android:style/Theme.Material.Light.NoActionBar"
-    android:usesCleartextTraffic="true">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <activity
-        android:name=".MainActivity"
-        android:exported="true">
+    <application
+        android:allowBackup="true"
+        android:label="NOOR TOOLS"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
 
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
 
-    </activity>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
-</application>
-android:icon="@drawable/noor_tools_icon"
+        </activity>
+
+    </application>
+
 </manifest>

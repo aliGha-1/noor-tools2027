@@ -4,7 +4,7 @@
     <application
         android:allowBackup="true"
         android:label="NOOR TOOLS"
-        android:icon="@drawable/noor_tools_icon.jpg"
+        android:icon="@drawable/noor_tools_icon"
         android:theme="@android:style/Theme.Material.Light.NoActionBar"
         android:usesCleartextTraffic="true">
 
